@@ -3,7 +3,9 @@
 
 Run
 ```
-docker run --cap-add CHECKPOINT_RESTORE --cap-add SYS_ADMIN --rm -p 8080:8080 --name demo demo:checkpoint
+$run.sh
+
+$docker run --cap-add CHECKPOINT_RESTORE --cap-add SYS_ADMIN --rm -p 8080:8080 --name demo demo:checkpoint
 ```
 
 ### References
